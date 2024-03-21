@@ -3,7 +3,39 @@
 *@
 @{
 }
-<div class="text-center">
-    <h1 class="display-4">@ViewBag.textoCadastro</h1>
-    <p class="fw-lighter">Preenche os dados abaixo para efetuar o cadastro</p>
+
+   <div class="row d-flex flex-column align-items-center ">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="display-6 text-center">@ViewBag.textoCadastro</h3>
+            </div>
+            <div class="card-body">
+                <form class="">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="email" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Senha" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="mb-3">
+                        <label for="ConfSenha" class="form-label">Confime a senha</label>
+                        <input type="password" class="form-control" id="confsenha" placeholder="Confirme sua senha">
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Cadastrar</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    
 </div>
+
