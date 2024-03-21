@@ -19,7 +19,7 @@ Este projeto consiste em criar um projeto MVC .NET 8 de acordo com os critérios
 
 ## Link do Projeto no GitHub
 
-- [Meu Projeto MVC .NET 8 no GitHub](https://github.com/seu-usuario/seu-projeto)
+- [Meu Projeto MVC .NET 8 no GitHub](https://github.com/thomasmendonca/CP01)
 
 ## Observações
 
