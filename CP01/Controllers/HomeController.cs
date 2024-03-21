@@ -12,9 +12,11 @@ namespace CP01.Controllers
         {
             _logger = logger;
         }
+        private Usuario usuario = new Usuario();
 
         public IActionResult Index()
-        {
+        {   
+            ViewBag.usuario = usuario;
             return View();
         }
 
