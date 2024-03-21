@@ -4,7 +4,34 @@
 @{
 }
 
-<div class="text-center">
-    <h1 class="display-4">@ViewBag.textoLogin</h1>
-    <p class="fw-lighter">Informe seu login para continuar</p>
+<div class="container">
+    <div class="row d-flex flex-column align-items-center ">
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Login</h3>
+                </div>
+                <div class="card-body ">
+                    <form class=" d-flex flex-column align-items-center row-gap-3">
+                        <div class="mb-3 ">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password">Senha</label>
+                            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck">
+                            <label class="form-check-label" for="exampleCheck1">Lembrar-se</label>
+                        </div>
+                        
+                            <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                        
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
